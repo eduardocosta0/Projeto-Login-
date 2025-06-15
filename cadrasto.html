@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="Pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CADASTRTO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="login-container">
+        <h2>Crie sua conta</h2>
+        <p>Preencha os campos abaixo para criar sua conta.</p>
+        <form>
+        <div>
+            <label for="nome">Nome do Usuário*</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required > 
+        </div>
+        <div>
+            <label for="email">E-mail*</label>
+            <input type="email" name="email" id="email"placeholder="Digite seu e-mail" required> 
+        </div>
+        <div>
+            <label for="senha">Senha*</label>
+            <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required> 
+        </div>
+        <div>
+            <label for="confirmar-senha">Confirmação de Senha*</label>
+            <input type="password" name="confirmar-senha" id="confirmar-senha" placeholder="Confirme sua senha" required> 
+        </div>
+        <div class="checkbox-container">
+            <input type="checkbox" name="termos" id="termos" required>
+            <label for="termos">Concordo com os termos de uso</label>
+        </div>
+        <button type="submit">Cadastra</button>
+        </form>
+        <p> Já tem uma conta? <a href="./index.html">Faça login</a></p>
+        <footer>
+            <p>Ao criar uma conta, você concorda com nossos <a href="#">Termos de Serviço</a> e <a href="#">Política de Privacidade</a>.</p> 
+        </footer>
+
+    </div>
+  
+
+    
+</body>
+</html>

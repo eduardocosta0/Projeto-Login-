@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+   <div class="login-container">
+        <h2>Faça o seu login </h2> 
+        <form>
+        <div>
+             <label for="email">E-mail*</label> 
+            <input type="email" name="email" id="email" placeholder="Digite seu email" required />
+        </div>
+
+        <div>
+             <label for="senha">Senha*</label> <br/>
+             <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required >  <br/>
+        </div>
+        
+
+        <div class="checkbox-container">
+            <input  type="checkbox" name="lembrar" id="lembrar">
+            <label for="lembrar">Lembrar de mim</label>
+        </div>
+        <button type="submit">Entrar</button>
+
+    </form>
+        <p>Não tem uma conta? <a href="./cadrasto.html">Cadastre-se</a></p>
+        <p>Esqueci minha senha <a href="./senha.html">Clique aqui</a></p>
+    </div>
+</body>
+</html>

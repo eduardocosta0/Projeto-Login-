@@ -1,0 +1,84 @@
+body {
+    background-image: url('./fundo03.jpg');
+    background-size: cover;
+    color:#00BFFF;
+    font-family: "poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 10px;
+}
+
+h2{
+    text-align:center;
+    color:#00BFFF;
+}
+
+
+.login-container {
+    background-color:rgba(0, 25, 50, 0.6);
+    width: 300px;
+    padding: 15px;
+    border-radius: 12px;
+    border:1px solid #ddd;
+    box-shadow: 0 2px 8px rgb(0, 0, 0,0.2);
+    backdrop-filter:blur(10px)
+}
+
+.checkbox-container  {
+  display:flex;
+  align-items: center;
+  gap:8px;
+  margin-bottom:20px;
+  color: white;
+}
+
+
+
+input[type="checkbox"] {
+    width:auto;
+    padding:0;
+    margin:0;
+
+}
+
+
+input {
+    border: 1px solid #00BFFF;
+    border-radius:25px;
+    width: 90% ;
+    padding: 5px;
+    margin: 5px 0 ;
+    background-color: white;
+}
+button{
+  
+    width:50%;
+    padding: 8px;
+    background-color: #0a303a;
+    color:rgb(216, 213, 213);
+    border-radius: 25px;
+    cursor:pointer;
+}
+button:hover {
+    transform: scale(1.05);
+    transition:0.3s;
+
+}
+div {
+   margin-bottom: 10px;
+}
+a{
+    color:white;
+    text-decoration: underline;
+    font-size: 14px;
+}
+p{
+    color:#00BFFF;
+    font-size:15px;
+
+}
+ placeholder{
+    color: #999;
+}
