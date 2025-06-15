@@ -82,3 +82,14 @@ p{
  placeholder{
     color: #999;
 }
+@media screen and (max-width: 600px) {
+  .login-container {
+    width: 90%;
+    margin: auto;
+    padding: 15px;
+  }
+
+  input {
+    width: 100%;
+  }
+}
